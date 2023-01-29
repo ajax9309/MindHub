@@ -26,18 +26,19 @@ h1 {
 
 }
 
-nav.menu{
+.menu{
     display: inline-block;
     padding: 15px;
-    width: 130px;
+    
 }
 
-article.events{
+.events{
     display: inline-block;
-    padding: 15px;
+    padding-left: 30px;
+    width: 75%;
 }
 
-article.events article.eventlist p{
+.eventlist p{
     padding-left: 15px;
 }
 
@@ -48,4 +49,5 @@ h3 {
     background-color: black;
     padding: 15px;
 }
+
 
