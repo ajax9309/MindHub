@@ -1,0 +1,51 @@
+*{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+/*Header Section*/
+
+#bannerMDHL{
+    width: 100%;
+    
+}
+
+
+h1 {    
+    color:yellow;
+    position:absolute;
+    padding: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+/*Main Section*/
+
+#logoMDHL{
+    
+    border: 2px solid black;
+    background-color: white;
+    width: 100px;
+    position: absolute;
+    right: 75px;
+    top: 640px;
+
+}
+
+nav.menu{
+    display: inline-block;
+    padding: 15px;
+    width: 130px;
+}
+
+article.events{
+    display: inline-block;
+    padding: 15px;
+}
+
+article.events article.eventlist p{
+    padding-left: 15px;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
