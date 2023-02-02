@@ -1,16 +1,27 @@
-*{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+*{font-family:sans-serif;}
+/*body*/
+body{
+    margin: 0;
+}
 /*Header Section*/
 
-#bannerMDHL{
-    display: flex;
-    object-fit: cover;
+.topsection{
+    background: url(./img/design1_image1.jpg);
+    background-size: cover;
+    height: 550px;
     
 }
-
-div.banner{
+.toptitle{
+    display: flex;
+    justify-content: center;
     
-    width: 70%;
-    
+}
+h1 {    
+    display: flex;
+    color: yellow;
+    text-shadow: 0px 0px 5px black;
+    font-size: 65px;
+    margin: 0;
 }
 .navRules{
     display: flex;
@@ -20,18 +31,6 @@ div.banner{
 
 .navP{
     padding: 10px;
-}
-
-h1 {    
-    color:yellow;
-    position:absolute;
-    padding: 20px;
-    text-shadow: 0px 0px 5px black;
-}
-.toptitle{
-    display: flex;
-    justify-content: center;
-    
 }
 
 /*Main Section*/
@@ -44,7 +43,6 @@ img.logoMDHL{
     position: absolute;
     right: 75px;
     top: 640px;
-
 }
 
 .imghome1{
@@ -73,7 +71,7 @@ h3.UEh3 {
     margin: 0;
     color: white;
     text-align: center;
-    background-color: black;
+    background-color: darkslategray;
     padding: 15px;
 }
 
@@ -90,3 +88,27 @@ h3.UEh3 {
     margin-right: 25px;
     padding: 10px;
 }
+
+.listaol1{
+    margin: 5px;
+}
+
+.li1{
+    padding: 5px;
+}
+
+.olaplha{
+    list-style-type: lower-alpha;
+}
+
+.ulcircle{
+    list-style-type: circle;
+}
+
+footer p{
+    text-align: center;
+    background: url(./img/LogoMightyducks-01.png) no-repeat center;
+    background-size: 150px;
+    height: 180px;
+}
+
