@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style3.css">
+    <title>MDHL>REGISTRATION</title>
+</head>
+<body>
+
+
+<header>
+    <div>
+        <nav class="navbar">
+            <p class="pnav"><a href="./Home.html">Home</a></p>
+            <p class="pnav"><a href="./About.html">About MDHL</a></p>
+            <p class="pnav"><a href="./Contact.html">Contact</a></p>
+            <p class="pnav"><a href="./Rules.html">Rules</a></p>
+            <p class="pnav"><a href="./GamesInfo.html">Games Info</a></p>
+            <p class="pnav">Registration</p>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h2 class="toptitle">Registration Form</h2>
+    <form class="regform" action="./source/scripts/show_data.html" method="get">
+        <fieldset class="fieldset1">
+            <div class="input1">
+                <label for="1stName">Player's First Name</label>
+                <input type="text" name="firstName" id="1stName">
+            </div>
+            <div class="input1">
+                <label for="ltName">Last Name</label>
+                <input type="text" name="lastName" id="ltName">    
+            </div>
+            <div class="input1">
+                <label for="staddress">Street Address</label>
+                <input type="text" name="staddress" id="staddress">
+            </div>
+            <div class="input1">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city">
+            </div>
+            <div class="input1">
+                <label for="zipcode">Zip Code</label>
+                <input type="number" name="zipcode" id="zipcode">
+            </div>
+            <div class="input1">
+                <label for="date">Birth Date (mm/dd/yyyy)</label>
+            <input type="date" name="date" id="date">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="male">Male</label>
+            <input class="input2" type="radio" name="gender" value="male" id="male">
+            <label for="female">Female</label>
+            <input class="input2" type="radio" name="gender" value="female" id="female">
+        </fieldset>
+        <fieldset>
+            <legend>Grade</legend>
+            <label class="labelcb" for="grade0">Pre-School</label>
+            <input class="input2" type="radio" name="grade" value="grade0" id="grade0">
+            <label class="labelcb" for="grade1">1st</label>
+            <input class="input2" type="radio" name="grade" value="grade1" id="grade1">
+            <label class="labelcb" for="grade2">2nd</label>
+            <input class="input2" type="radio" name="grade" value="grade2" id="grade2">
+            <label class="labelcb" for="grade3">3rd</label>
+            <input class="input2" type="radio" name="grade" value="grade3" id="grade3">
+            <label class="labelcb" for="grade4">4th</label>
+            <input class="input2" type="radio" name="grade" value="grade4" id="grade4">
+            <label class="labelcb" for="grade5">5th</label>
+            <input class="input2" type="radio" name="grade" value="grade5" id="grade5">
+        </fieldset>
+        <h3>Wich elementart school do you live near?</h3>
+        <fieldset>
+            <legend>Closest School</legend>
+            <label for="schools">Select Schools</label>
+            <select name="schools" id="schools" multiple>
+                <option value="AJKatzenmaier">AJ Katzenmaier</option>
+                <option value="MarjoriePHart">Marjorie P Hart</option>
+                <option value="GreenBay">Green Bay</option>
+                <option value="NorthElementary">North Elementary</option>
+                <option value="HowardAYeager">Howard A Yeager</option>
+                <option value="SouthElementary">South Elementary</option>
+            </select>
+        </fieldset>
+        <h3>What position(s) do you normally play? (check all that apply)</h3>
+        <fieldset>
+            <legend>Positions</legend>
+            <label class="labelcb" for="fw">Forward</label>
+            <input type="checkbox" name="position" value="forward" id="fw">
+            <label class="labelcb" for="mf">Midfield</label>
+            <input type="checkbox" name="position" value="midfield" id="mf">
+            <label class="labelcb" for="de">Defense</label>
+            <input type="checkbox" name="position" value="defense" id="de">
+            <label class="labelcb" for="gk">Goalkeeper</label>
+            <input type="checkbox" name="position" value="goalkeeper" id="gk">
+        </fieldset>
+        <h3>Uniform Size:</h3>
+        <fieldset>
+            <label for="usize">Select Size</label>
+            <select name="usize" id="usize">
+                <option value="YouthSmall">Youth Small</option>
+                <option value="Medium">Medium</option>
+                <option value="YouthMedium">Youth Medium</option>
+                <option value="Large">Large</option>
+                <option value="YouthLarge">Youth Large</option>
+                <option value="ExtraLarge">Extra-Large</option>
+                <option value="Small">Small</option>
+            </select>
+        </fieldset>
+        <h3>Permission to Play:</h3>
+        <fieldset>
+            <p>
+                I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of the Mighty Dycks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated
+                with hockey and in consideration for the "League" accepting the registrant for its hockey program and
+                activities, I hereby release, discharge, and/or otherwise indenmify MDHL, they employees and associated
+                personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                on
+                behalf of the registrant as a result of the activities, wich transportation. By Signing below, I hereby
+                agree and authorize the above. In addition, by singning below, I also acknowledge tha I have read the
+                cacellation policy and agree to its terms.
+            </p>
+            <div class="txtbx">
+                <label class="labelcb" for="signature">Parent/Guardian Signature:</label>
+                <input type="text" name="signature" id="signature">
+            </div>
+            <div class="txtbx">
+                <label class="labelcb" for="datesign">Date</label>
+                <input type="date" name="datesign" value="" id="datesign">
+            </div>
+            
+        </fieldset>
+        <input class="btnConfirm" type="submit" value="Confirm">
+    </form>
+</main>
+
+<footer>
+
+</footer>
+</body>
+</html>

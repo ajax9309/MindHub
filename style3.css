@@ -1,0 +1,201 @@
+*{font-family:sans-serif;}
+/*body*/
+body{
+    margin: 0;
+    background-color: lightyellow;
+}
+/*Header Section*/
+
+.topsection{
+    background: url(./img/design1_image1.jpg);
+    background-size: cover;
+    height: 550px;
+    
+}
+.toptitle, .gamestitle, .gamestable{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gamesdiv1 ,.divcontact0 ,.divmaps{
+    padding-left: 50px;
+    width: 90%;
+}
+
+h1 {    
+    display: flex;
+    color: yellow;
+    text-shadow: 0px 0px 5px black;
+    font-size: 65px;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: start;
+    background-color: goldenrod;
+    /* border: 1px solid black; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 20px 0px
+}
+
+.pnav{
+    padding: 10px;
+}
+
+/*Main Section*/
+
+img.logoMDHL{
+    
+    width: 120px;
+    position: absolute;
+    right: 180px;
+    top: 540px;
+}
+
+.imghome1{
+    border-radius: 2%;
+    border: solid 1px black;
+    display: inline-flex;
+    width: 320px;
+}
+
+.menu{
+    
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.events{
+    display: inline-block;
+    padding-left: 30px;
+    width: 50%;
+}
+
+.eventlist p{
+    padding-left: 15px;
+}
+
+h3.UEh3 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    background-color: darkslategray;
+    padding: 15px;
+}
+
+.intro{
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.introp2{
+    padding: 15px;
+}
+
+.topRules{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.listaol1{
+    margin: 5px;
+}
+
+.li1{
+    padding: 5px;
+}
+
+.olaplha{
+    list-style-type: lower-alpha;
+}
+
+.ulcircle{
+    list-style-type: circle;
+}
+
+.gamesdiv1 p.gamestitle3{
+    text-decoration: underline;
+    
+}
+
+.gamestable th,td,tbody{
+    /* border: 1px solid ; */
+    border-collapse: collapse;
+}
+
+.divcontact1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 85%;
+}
+th{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+td{
+    padding-left: 30px;
+    text-align: left;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.rowA-1{
+    text-align: center;
+}
+
+iframe{
+    margin: 5px;
+
+}
+
+fieldset{
+    padding: 15px;
+    margin: 0;
+}
+
+.regform{
+    padding: 15px;
+}
+
+/* label{
+    padding: 2px;
+} */
+.labelcb{
+    padding-left: 15px;
+}
+.input1{
+    display: inline-grid;
+    padding: 5px;
+}
+
+.input2{
+    margin-right: 5px;
+}
+
+.txtbx{
+    margin-top: 15px;
+}
+
+.btnConfirm{
+    margin-top: 15px;
+    padding: 15px;
+}
+
+footer p{
+    text-align: center;
+    background: url(./img/LogoMightyducks-01.png) no-repeat center;
+    background-size: 150px;
+    height: 180px;
+}
+
