@@ -18,9 +18,9 @@ body{
     
 }
 
-.gamesdiv1{
-    padding-left: 20px;
-    width: 50%;
+.gamesdiv1 ,.divcontact0 ,.divmaps{
+    padding-left: 50px;
+    width: 90%;
 }
 
 h1 {    
@@ -120,15 +120,19 @@ h3.UEh3 {
 
 .gamesdiv1 p.gamestitle3{
     text-decoration: underline;
+    
 }
 
 .gamestable th,td,tbody{
     /* border: 1px solid ; */
     border-collapse: collapse;
 }
-.divcontact{
+
+.divcontact1{
     display: flex;
-    
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 85%;
 }
 th{
     text-align: left;
@@ -150,7 +154,10 @@ td{
     text-align: center;
 }
 
+iframe{
+    margin: 5px;
 
+}
 
 footer p{
     text-align: center;
