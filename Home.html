@@ -6,57 +6,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDHL</title>
-    <link rel="stylesheet" href="./style3.css">
-    <!-- <link rel="stylesheet" href="./style2.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 
-<body>
+<body class="bg-body">
 
     <header>
-        <div class="topsection">
-            <div>
-                <img class="logoMDHL" src="./img/LogoMightyducks-01.png" alt="logoMDHL">
-                <nav class="navbar">
-                    <p class="pnav">Home</p>
-                    <p class="pnav"><a href="./About.html">About MDHL</a></p>
-                    <p class="pnav"><a href="./Contact.html">Contact</a></p>
-                    <p class="pnav"><a href="./Rules.html">Rules</a></p>
-                    <p class="pnav"><a href="./GamesInfo.html">Games Info</a></p>
-                    <p class="pnav"><a href="./Registration.html">Registration</a></p>
-                </nav>   
-            </div>
-            <div>
-                <h1 class="title">Mighty Ducks Hockey League</h1>
-            </div>
+        <div class="position-absolute d-flex justify-content-end">
+            <img class="w-25 img-fluid" src="./img/LogoMightyducks-01.png" alt="logoMDHL">
+        </div>
+        <div class="sticky-top">
+            
+            <nav>
+                <ul class="nav nav-tabs bg-warning">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="./About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="./Contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="./Rules.html">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="./Registration.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="./GamesInfo.html">Games Info</a>
+                    </li>
+                </ul> 
+            </nav>
         </div>
         
-        <h3 class="UEh3"><span class="bold">Upcoming Events</span></h3>
+        <div class="flex-row">
+            <h1 class="text-danger-emphasis position-absolute">Mighty Ducks Hockey League</h1>
+            <img class="img-fluid" src="./img/design1_image1.jpg" alt="bannerMDHL">
+        </div>
+        <div class="flex-row text-center text-bg-success p-1">
+            <h3 class="">Upcoming Events</h3>
+        </div>
     </header>
 
     <main>
-        <div>
-            <img class="imghome1" src="./img/hockey1.jpg" alt="img1">
-            
-            <div class="events">
-                <article class="eventlist">
-                    <h4><span class="bold">August 4</span></h4>
+        <div class="card m-1">
+        <div class="card-header">
+            <img class="card-img" src="./img/hockey1.jpg" alt="img1">  
+            <div class="card-body">
+                <article class="">
+                    <h4><span>August 4</span></h4>
                     <p>MDSL Fundraiser</p>
                 </article>
-                <article class="eventlist">
-                    <h4><span class="bold">August 16</span></h4>
+                <article class="">
+                    <h4><span>August 16</span></h4>
                     <p>Season Kick-off: Meet the Teams</p>
                 </article>
-                <article class="eventlist">
-                    <h4><span class="bold">September 1</span></h4>
+                <article class="">
+                    <h4><span>September 1</span></h4>
                     <p>First game of the Season (Check Game Schedule for details)</p>
                 </article>
             </div>
         </div>
+    </div>
     </main>
 
-    <footer>
+    <footer >
+        <div class="bg-warning bg-opacity-75 p-4"></div>
     </footer>
 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
 </html>
